@@ -1,4 +1,4 @@
-package Pegas.seminar1;
+package Pegas.seminar1.hw1;
 
 import Pegas.seminar1.hw1.Person;
 import com.google.gson.Gson;

@@ -16,9 +16,7 @@ public class Person {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-
         if (!(o instanceof Person person)) return false;
-
         return new EqualsBuilder().append(firstName, person.firstName)
                 .append(lastName, person.lastName).append(age, person.age).isEquals();
     }
