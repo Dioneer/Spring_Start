@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User update</title>
+    <title>User create</title>
 </head>
 <body>
-<form th:action="/update" method="post">
+<form th:action="@{/users}" method="post">
     <label for="firstname">Firstname:
         <input id="firstname" type="text" name="firstName">
     </label><br>
     <label for="lastname">Lastname:
         <input id="lastname" type="text" name="lastName">
     </label><br>
-    <button type="submit">Filter</button>
+    <button type="submit">Create</button>
 </form>
 </body>
 </html>

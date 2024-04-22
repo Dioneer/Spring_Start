@@ -1,17 +1,12 @@
 package Pegas;
 
-import Pegas.lection2.task.Car;
-import Pegas.seminar2.hw2.repository.UserRepository;
-import Pegas.seminar2.task1.entity.EntityCar;
-import Pegas.seminar2.task2.entity.BigCar;
-import Pegas.seminar2.task3.entity.Unicorn;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApplicationRunner {
+public class ApplicationRunnerHw {
     public static void main(String[] args) {
-        var context = SpringApplication.run(ApplicationRunner.class, args);
+        var context = SpringApplication.run(ApplicationRunnerHw.class, args);
         /**
          * lection2
          */

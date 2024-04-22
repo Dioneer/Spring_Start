@@ -1,6 +1,6 @@
 package Pegas.integration.repository;
 
-import Pegas.ApplicationRunner;
+import Pegas.ApplicationRunnerHw;
 import Pegas.seminar2.hw2.entity.User;
 import Pegas.seminar2.hw2.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +15,7 @@ import java.util.Optional;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest(classes = ApplicationRunner.class)
+@SpringBootTest(classes = ApplicationRunnerHw.class)
 @RequiredArgsConstructor
 @Transactional
 @TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)

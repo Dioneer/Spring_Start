@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="ApplicationRunner" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="Pegas.ApplicationRunner" />
+    <option name="MAIN_CLASS_NAME" value="Pegas.ApplicationRunnerHw" />
     <module name="Java_Spring.main" />
     <extension name="coverage">
       <pattern>
