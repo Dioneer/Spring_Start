@@ -1,6 +1,7 @@
 package Pegas;
 
 import Pegas.lection2.task.Car;
+import Pegas.seminar2.hw2.repository.UserRepository;
 import Pegas.seminar2.task1.entity.EntityCar;
 import Pegas.seminar2.task2.entity.BigCar;
 import Pegas.seminar2.task3.entity.Unicorn;
@@ -33,5 +34,6 @@ public class ApplicationRunner {
          */
 //        Unicorn unicorn = context.getBean(Unicorn.class);
 //        System.out.println(unicorn);
+
     }
 }

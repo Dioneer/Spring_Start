@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("web&prod")
+//@Profile("web&prod")
 public class Car {
     private Engine engine;
     public void start(){

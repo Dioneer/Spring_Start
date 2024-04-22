@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User update</title>
+</head>
+<body>
+<form th:action="/update" method="post">
+    <label for="firstname">Firstname:
+        <input id="firstname" type="text" name="firstName">
+    </label><br>
+    <label for="lastname">Lastname:
+        <input id="lastname" type="text" name="lastName">
+    </label><br>
+    <button type="submit">Filter</button>
+</form>
+</body>
+</html>

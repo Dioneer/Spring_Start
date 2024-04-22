@@ -4,7 +4,7 @@
     <module name="Java_Spring.main" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="Pegas.*" />
+        <option name="PATTERN" value="Pegas.integration.repository.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
