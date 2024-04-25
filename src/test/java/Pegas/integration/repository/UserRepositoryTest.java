@@ -15,10 +15,10 @@ import java.util.Optional;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest(classes = ApplicationRunnerHw.class)
 @RequiredArgsConstructor
 @Transactional
 @TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)
+@SpringBootTest(classes = ApplicationRunnerHw.class)
 public class UserRepositoryTest {
     private final UserRepository userRepository;
 
@@ -31,7 +31,7 @@ public class UserRepositoryTest {
     void findAll(){
         List<User> users = userRepository.findAll();
         assertTrue(!users.isEmpty());
-        assertThat(users).hasSize(4);
+        assertThat(users).hasSize(8);
     }
     @Test
     void save(){

@@ -31,9 +31,7 @@ last_name varchar(120)
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="75cc8796-793c-43a6-a0b9-e4872497ed5e" object-ref="schemas/public/tables/users" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="75cc8796-793c-43a6-a0b9-e4872497ed5e" />
